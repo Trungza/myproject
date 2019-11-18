@@ -22,6 +22,8 @@ public class Dangnhap extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btnDangnhp_dangnhap:
+                Intent intent1=new Intent(Dangnhap.this,ManHinhChinh.class);
+                startActivity(intent1);
                 break;
         }
     }
